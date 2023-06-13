@@ -1,0 +1,129 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    background-image:linear-gradient(to left, rgb(34, 104, 34), rgb(71, 71, 121));
+
+}
+html{
+    overflow: hidden;
+    justify-content: center;
+}
+.box {
+    border-radius: 50%;
+    width: 300px;
+    padding: 30px;
+    border: 2px solid gold;
+    border-top: 2px solid rgb(133, 51, 4);
+    border-bottom: 2px solid blue;
+    background-color: grey;
+    box-shadow: 1px 1px 2px green;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.2%;
+    margin-left: 35%;
+   
+}
+
+.head {
+    display: grid;
+    margin-top: -2rem;
+}
+a {
+    text-decoration: none;
+}
+.head img{
+    width: 38px;
+}
+h1 {
+    margin-bottom: .6rem;
+    margin-top: -2rem;
+    margin-left: 3rem;
+    color: #6e1414;
+    text-transform: uppercase;
+    font-size: 4vmin;
+    align-self: center;
+}
+h2 {
+    color: #253f26;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 3.5vmin;
+    align-self: center;
+    margin-left: 20%;
+    margin-bottom: 3.5rem;
+    text-shadow: 2px 2px cyan;
+}
+.username,
+.password {
+    position: relative;
+}
+.fa-envelope,
+.fa-lock-open {
+    position: absolute;
+    left: 20px;
+    top: 40px;
+    color: rgb(256,256,256);
+}
+.box input {
+    font-size: 20px;
+    border: 0;
+    background: oldlace;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2.5px solid rgb(33, 33, 80);
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: black;
+    border-radius: 23px;
+    transition: all .2s ease-in ;
+    height: 10%;
+}
+.box input:focus{
+    width: 225px;
+}
+.wrapper {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+}
+.box form .links{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+.box form .links a {
+    margin: 10px 0;
+    font-size: .75em;
+    color: #c1e2de;
+    text-decoration: none;
+}
+.box form .links a:hover,
+.box form .links a:nth-child(2){
+    color: #fff;
+}
+#btn {
+    border: 0;
+    background: rgb(29, 179, 67) ;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 14px 35px;
+    color: rgb(256,256,256);
+    border-radius: 18px;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    font-weight: bold;
+    font-style: italic;
+}
+#btn:hover {
+    background-color:rgb(228, 197, 20);
+    color: rgb(3, 80, 22);
+}
